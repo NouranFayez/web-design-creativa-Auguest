@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form autocomplete="off">
+        <label>First Name</label>
+        <input type="text" name="firstName" required minlength="3" maxlength="6" autocomplete="off">
+        <br>
+        <input type="text" name="lastName" placeholder="enter last name">
+        <br>
+        <label>Email</label>
+        <input type="email" name="userEmail">
+        <br>
+        <input type="password" disabled placeholder="enter your password">
+
+        <input type="text" value="Alex" readonly name="shippingArea">
+ 
+        <select name="course">
+            <option disabled selected>Choose Course</option>
+            <option value="0">Html</option>
+            <option value="1" disabled>Css course</option>
+            <option value="2">Js</option>
+        </select>
+        <select name="track" multiple>
+            <option disabled selected>Choose track</option>
+            <option value="0">Backend</option>
+            <option value="1" >Frontend</option>
+            <option value="2">Ccna</option>
+        </select>
+        <input type="date" name="" id="">
+        <input type="month" name="" id="">
+        <input type="datetime-local" name="" id="">
+        <input type="color" name="productColor" id="">
+        <input type="range" name="userRange" max="200" min="100" value="100" step="25">
+
+        <input type="file" multiple>
+
+        <input type="number" >
+
+        <input type="password" pattern=".{8,}" title="at leaset 8 characters">
+
+
+        <input type="submit" value="Sign in">
+        <button>Register</button>
+        <button type="reset">Clear</button>
+    </form>
+    <button>Register Outside form</button>
+
+    <span>Lorem.</span>
+    
+</body>
+</html>

@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* h1 , h2 , h3 , h4 , h5 , h6 , body , p {
+    margin: 0px;
+} */
+
+.div_style{
+    width: 30%;
+
+    display: inline-block;
+     /* 
+    margin-left: 6%;
+    margin-top: 6%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    margin: 6% 5% 2% 6%;
+    margin: 6% 2% 5%;
+    margin: 5% 2%; */
+    /* margin: 10%; */
+    /* border ==> style , width , color  */
+    border-top-color: red;
+    border-top-width: 12px;
+    border-top-style: solid;
+    border-top: 2px solid blue;
+
+    border: 3px solid red;
+
+
+    padding: 3%;
+    box-sizing: border-box;
+}
+.custom-margin{
+    margin: 0 4%;
+}
+
+.div_style img{
+    width: 100%;
+    border-radius: 10px;
+   
+}
+.div_details{
+    padding: 6%;
+}
+
+.div_style span{
+    display: block;
+    background-color: aqua;
+    width: 56%;
+    height: 57px;
+    margin: 7%;
+}
+.div_style a{
+    background-color: black;
+    color: white;
+    width: 40%;
+    height: 50px;
+    margin: 12%;
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+.bg-light{
+    background-color: lightgrey;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+
+form{
+    width: 40%;
+    margin: auto;
+}
+
+.custom-form-element{
+    display: block;
+    display: block;
+    width: 100%;
+    padding: 2%;
+    margin-top: 4%;
+    border-color: red;
+    border-style: solid;
+    border: 2px solid red;
+    border-radius: 5px
+}
+form button{
+    background-color: transparent;
+    /* color: white; */
+    padding: 2%;
+    margin: 2% 0;
+    margin-left: auto;
+    display: block;
+    border-radius: 5px;
+}
+textarea{
+    resize: none;
+}

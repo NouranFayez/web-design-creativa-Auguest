@@ -5,27 +5,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+    <header></header>
     <nav class="bg-dark">
         <div class="container">
             <h2>
                 <a href="" class="text-white">World</a>
             </h2>
             <ul>
-                <li >
-                    <a href="" class="text-white">Home</a></li>
-                <li><a href="" class="text-white">About</a></li>
-                <li><a href="" class="text-white">services</a></li>
-                <li><a href="" class="text-white">Blogs</a></li>
+                <li><a href="" class="text-white">Home</a></li>
+                <li><a href="#about-section" class="text-white">About</a></li>
+                <li><a href="#services-section" class="text-white">services</a></li>
+                <li><a href="#blogs-section" class="text-white">Blogs</a></li>
             </ul>
         </div>
 
     </nav>
 
-    <section id="bg-img" class="text-align-center">
+    <section id="bg-img" class="text-align-center" >
         <div class="overlay ">
             <div class="container">
                 <h2 class="text-white">Title</h2>
@@ -38,13 +39,27 @@
 
         </div>
     </section>
+ 
 
     <section class="bg-light">
         <div class="container">
             <div class="card float-left">
                 <img src="images/beautiful-natural-view-landscape_23-2150787996.avif" alt="">
+                <button class="btn">Travel</button>
                 <div class="card-description">
                     <h3>title 1</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem voluptatem dolore nisi ad saepe
+                        totam. Neque modi recusandae dignissimos ducimus.
+
+                    </p>
+                    <a href="" class="link-item">Read More</a>
+                </div>
+            </div>
+            <div class="card float-left">
+                <img src="images/beautiful-natural-view-landscape_23-2150787996.avif" alt="">
+                <button class="btn">Travel</button>
+                <div class="card-description">
+                    <h3>title 2</h3>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem voluptatem dolore nisi ad saepe
                         totam. Neque modi recusandae dignissimos ducimus.
 
@@ -52,9 +67,14 @@
                 </div>
             </div>
             <div class="card float-left custom-margin">
-                <img src="images/beautiful-natural-view-landscape_23-2150787996.avif" alt="">
+                <div class="position-relative">
+                    <img src="images/beautiful-natural-view-landscape_23-2150787996.avif" alt="">
+                    <div class="card-overlay">
+                        <h2>title</h2>
+                    </div>
+                </div>
                 <div class="card-description">
-                    <h3>title 2</h3>
+                    <h3>title 3</h3>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem voluptatem dolore nisi ad saepe
                         totam. Neque modi recusandae dignissimos ducimus.
 
@@ -71,11 +91,29 @@
                     </p>
                 </div>
             </div>
+
             <div class="clear"></div>
             
         </div>
 
     </section>
+
+    <section id="about-section" class="section-height">
+
+    </section>
+    <section id="services-section" class="section-height"></section>
+    <section id="blogs-section" class="section-height"></section>
+
+
+    <i class="fa-brands fa-facebook-f social-media-icon"></i>
+
+  
+    <a href="#bg-img" id="up-arrow">
+        <i class="fa-solid fa-chevron-up"></i>
+    </a>
+    <span>
+        Lorem, ipsum.
+    </span>
 
 </body>
 

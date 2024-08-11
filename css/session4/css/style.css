@@ -1,0 +1,63 @@
+
+/* https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+
+/* reset Style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+
+/* Global style */
+.container{
+    width: 90%;
+    margin: auto;
+}
+.d-flex{
+    display: flex;
+    /* justify-content==> flex-start (default) , flex-end , center , space-between , space-around , space-evenly */
+    justify-content: space-between ;
+    /* flex-direction ==> row (default) , row-reverse , column , column-reverse */
+    /* align-items: stretch (default) , center , flex-start , flex-end ; */
+    align-items: center;
+    /* flex-wrap ==> nowrap(default) , wrap */
+    flex-wrap: wrap;
+    /* align-content: flex-start , flex-end , center , space-between , space-around , space-evenly */
+    align-content: center;
+    height: 730px;
+}
+.align-self-end{
+    align-self: flex-end;
+    order: -1;
+}
+/* Custom style */
+nav{
+    background-color: lightgray;
+    padding: 2% 0;
+}
+nav h1{
+    font-size: 40px;
+}
+nav ul{
+    width: 30%;
+}
+.nav-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card{
+    padding: 2%;
+    width: 30%;
+    box-shadow: 0px 0px 5px 5px lightgray;
+}
+.section-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.section-flex img{
+    width: 30%;
+}

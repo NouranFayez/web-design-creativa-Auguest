@@ -1,0 +1,12 @@
+.banner-slider .carousel-item img {
+    height: 600px;
+}
+.banner-slider .carousel-indicators{
+    left: auto;
+    bottom: 37%;
+    flex-direction: column;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: maroon;
+}

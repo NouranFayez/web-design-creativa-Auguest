@@ -1,0 +1,57 @@
+-- data types ==> string , number , boolean(true , false) , undefined , null , NaN(Not a Number) , array , object
+
+-- js ==> camelCase
+          case Sensitive
+
+-- operators ==> Mathematical Operators 
+                 Assignment operators 
+                 unary operators
+                 comparison Operators
+                 logical Operators
+                 ternary Operators
+
+
+-- Mathematical Operators ==> + , - , / , * , ** , % , ++ , --
+++ : increment 
+-- : decrement  
+
+-- Assignment Operators ==> += , -= , /= , *= , **= , %=
+
+-- unary operator ==> typeof
+
+-- comparison operators ==> (> , >= , < , <= , == , === , != , !==)  ==> boolean type
+
+-- logical Operators ==> && , || , !
+
+&& ==> true , false .. = false
+&& ==> true , true , true ..... = true
+
+|| ==> false , false .. = false
+|| ==> true , false , false ..... = true
+
+
+-- ternary 
+(condition) ? true code : false code ;
+
+-- falsy value ==> "" , 0 , -0 , false , null , undefined , NaN
+-- true value ==> "string" , 20 , true 
+
+
+-- if condition
+
+if(condition) {
+    true code ...
+
+}
+else {
+    false code ....
+}
+
+
+looping => for , while , foreach 
+
+
+function ==> name 
+             body 
+             parameters
+             call function

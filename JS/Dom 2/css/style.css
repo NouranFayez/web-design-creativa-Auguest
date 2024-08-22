@@ -1,0 +1,24 @@
+.card-custom{
+    height: 300px;
+    border: 2px solid ;
+    width: 30%;
+    margin: auto;
+    overflow: auto;
+}
+
+body{
+    height: 2000px;
+}
+
+.uparrow{
+    position: fixed;
+    bottom: 10px;
+    right: 10%;
+    font-size: 35px;
+    color: red;
+    display: none;
+}
+
+.owl-nav{
+    font-size: 50px;
+}
